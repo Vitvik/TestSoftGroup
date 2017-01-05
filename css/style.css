@@ -1,0 +1,220 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, main,
+footer, header, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+input, textarea {
+    outline: none;
+    resize: none;
+}
+
+/*firefox button fixes*/
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+:focus {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 14px;
+
+}
+
+a:hover {
+    text-decoration: none;
+    opacity:0.8;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.clr:after, .wrap:after, .line:after  {
+    content: '';
+    display: block;
+    clear: both;
+    line-height: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    float: none !important;
+}
+
+.fll {
+    float: left !important;
+}
+
+.flr {
+    float: right !important;
+}
+/*base end*/
+body{
+    text-align: left;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #fff;
+}
+.wrapper{
+    margin:0 auto;
+
+}
+.wrap{
+    width: 1000px;
+    margin:0 auto;
+}
+a{
+    display:block;
+    color: black;
+}
+header{
+    padding: 50px 0 50px 0;
+}
+.logo{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav li{
+    display: inline;
+    float: right;
+}
+nav a{
+    padding: 5px 15px;
+    border: solid 1px black;
+    border-right: none;
+}
+nav li:first-child{
+    border-right:solid 1px black ;
+}
+nav a:hover{
+    background-color: grey;
+}
+.sg{
+
+    float: right;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+h1{
+    font-size: 50px;
+    line-height:30px;
+}
+h2{
+   font-size: 25px;
+
+}
+.content{
+    padding: 30px 0 30px 0;
+}
+.sidebar{
+    float: left;
+    width: 200px;
+}
+.sidebar li{
+    border: solid 1px black;
+    border-bottom: none;
+}
+.sidebar li:last-child{
+    border-bottom: solid 1px black;
+}
+.sidebar a{
+    text-align: left;
+    padding:15px 5px;
+
+}
+.sidebar a:hover{
+    background-color: grey;
+}
+table{
+    width: 100%;
+
+}
+
+.border{
+   border:solid 1px black;
+   border-collapse: collapse;
+   padding: 5px;
+}
+
+.col{
+    width: 35%;
+}
+
+article{
+    float: right;
+    width: 750px;
+    line-height: 1.5;
+}
+article h3,h4{
+    font-weight:bold;
+}
+
+section{
+    margin-bottom: 20px;
+}
+section:last-child{
+    margin-bottom: 0;
+}
+footer{
+    background-color: #777;
+    padding: 50px 0 50px 0;
+    text-align:center;
+    line-height: 1.5;
+}
+footer a{
+    display: inline-block;
+}
